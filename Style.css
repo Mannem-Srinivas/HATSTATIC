@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'American Typewriter', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+}
+
+header {
+    padding: 80px;
+    background: url('Img50.webp');
+}
+
+nav {
+    
+    .changecolor
+    {
+        background-color: #333;
+        color:white;
+    }
+    .changecolor:hover
+    {
+        background-color:white;
+        color:#333;
+    }
+    background-color: #333;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    position:relative;
+}
+.dropbtn {
+    font-family: 'American Typewriter', sans-serif;
+    position: relative;
+    background-color: #333;
+    color: white;
+    padding: 19px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+   
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #333;
+    min-width: 16px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: #333;
+    color: white;
+    padding: 16px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #333}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+    color: #333;
+  }
+
+main {
+    background: url('Img51.jpeg');
+    text-align: center;
+    
+}
+
+
+h2 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background: url('Img51.jpeg');
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 0px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
