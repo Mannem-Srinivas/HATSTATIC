@@ -1,0 +1,2 @@
+# HATSTATIC
+Hack4Impact(HATSTATIC)
